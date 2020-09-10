@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoTest]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="com.udd.scripts.WorkspaceTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="testCondition"/>
+          <include name="terdown"/>
+          <include name="selectCurrentWorkspace"/>
+        </methods>
+      </class> <!-- com.udd.scripts.WorkspaceTest -->
+      <class name="com.udd.scripts.LoginPageTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="loginWithValidValue"/>
+          <include name="testCondition"/>
+          <include name="terdown"/>
+        </methods>
+      </class> <!-- com.udd.scripts.LoginPageTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [DemoTest] -->

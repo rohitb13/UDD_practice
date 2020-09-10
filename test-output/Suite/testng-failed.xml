@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.udd.scripts.LoginPageTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="loginWithValidValue"/>
+          <include name="testCondition"/>
+        </methods>
+      </class> <!-- com.udd.scripts.LoginPageTest -->
+      <class name="com.udd.scripts.WorkspaceTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="testCondition"/>
+          <include name="selectCurrentWorkspace"/>
+        </methods>
+      </class> <!-- com.udd.scripts.WorkspaceTest -->
+      <class name="com.udd.scripts.EnumerationTest">
+        <methods>
+          <include name="createBitmaskEnum"/>
+          <include name="setupTest"/>
+          <include name="createIDTEnum"/>
+          <include name="teardown"/>
+          <include name="testCondition"/>
+          <include name="enumCreation"/>
+          <include name="createADTEnum"/>
+        </methods>
+      </class> <!-- com.udd.scripts.EnumerationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

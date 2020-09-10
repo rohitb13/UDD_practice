@@ -1,0 +1,3 @@
+17/02/2020 16:27:17 DEBUG (LogInitilizer.java:24)   - Debug Log is initialized
+17/02/2020 16:27:29 INFO  (EnumerationTest.java:25)   - Naviating to https://udd.kpit.com/UDD/index.html
+17/02/2020 16:27:30 INFO  (EnumerationTest.java:27)   - Logging in as user rohitb13
